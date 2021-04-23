@@ -1,0 +1,133 @@
+body{
+  font: Arial,Helvetica, sans-serif ;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(247, 248, 246);
+} 
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.highlight{
+  color: rgb(4, 8, 0);
+  font: italic;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: rgb(8, 3, 83);
+  color: aliceblue;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header a {
+  color: aliceblue;
+  text-decoration:none ;
+  font-size: 17px;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px;
+  float: left;
+}
+
+header nav {
+  margin-bottom: 100px;
+}
+
+header .current a {
+  color: rgb(172,241,241);
+  font-weight: bold;
+}
+
+header a:hover {
+  color:rgb(172, 241, 241);
+  font-weight: bold;
+  
+}
+
+#showcase {
+  min-height: ;
+  background-color: rgb(6, 122, 218);
+  text-align: center;
+  color: aliceblue;
+}
+
+
+#boxes .container0 {
+  float: center;
+  text-align: center;
+}
+
+#boxes .container1 {
+  float: center;
+  text-align: center;
+  background-image: url(../img/123.jpg);
+  background-size: cover;
+  color: rgb(7, 6, 0);
+  padding: 100px;
+}
+
+#boxes .container2 {
+  background-image: url(../img/book.jpg);
+  color: aliceblue;
+  background-size: cover;
+  padding: 100px;
+}
+
+#boxes .container4{
+  background-image: url(../img/programing.png);
+  background-size: cover;
+  padding: 100px;
+  color: aliceblue;
+}
+#boxes .container4 .cp{
+  font-size: 100%;
+  font-style: italic;
+  
+}
+
+#boxes .container3 .p1
+
+{
+  background-color: rgb(112, 176, 248);
+  padding: 30px;
+  color: aliceblue;
+  margin: 10px 100px;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(1, 75, 97);
+}
+
+@media(max-width: 768px) {
+  header nav,
+  header #branding,
+  header nav li,
+
+  {
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+  
+  header li
+  {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
